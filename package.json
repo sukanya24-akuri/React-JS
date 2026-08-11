@@ -1,0 +1,25 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Namaste React Js",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sukanya24-akuri/React-JS.git"
+  },
+  "keywords": [
+    "reactjs",
+    "grow",
+    "learn",
+    "scale"
+  ],
+  "author": "Sukanya Akuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sukanya24-akuri/React-JS/issues"
+  },
+  "homepage": "https://github.com/sukanya24-akuri/React-JS#readme"
+}
