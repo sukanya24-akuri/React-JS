@@ -1,0 +1,1 @@
+export const LOGO_URL="https://static.vecteezy.com/system/resources/previews/002/233/113/non_2x/restaurant-service-abstract-logo-template-symbol-icon-free-vector.jpg";
