@@ -1,4 +1,4 @@
-import biryani from "../assets/biryani.png";
+import biryani from '../assets/biryani.png';
 import burger from "../assets/burger.png";
 import pizza from "../assets/pizza.png";
 const resList=[
@@ -8,7 +8,7 @@ const resList=[
     "cuisines": ["Biryani", "Indian", "Hyderabadi"],
     "deliveryTime": "30-35 mins",
     "image": biryani,
-    "rating": 4.5,
+    "rating": 4.0,
     "price": 350
   },
   {
@@ -17,7 +17,7 @@ const resList=[
     "cuisines": ["Pizza", "Italian", "Fast Food"],
     "deliveryTime": "25-30 mins",
     "image":pizza,
-    "rating": 4.3,
+    "rating": 3.3,
     "price": 299
   },
   {
@@ -53,7 +53,7 @@ const resList=[
     "cuisines": ["South Indian", "Dosa", "Idli"],
     "deliveryTime": "20-25 mins",
     "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0?w=500",
-    "rating": 4.5,
+    "rating": 4.4,
     "price": 220
   }
 ]
