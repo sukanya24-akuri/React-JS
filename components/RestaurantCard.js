@@ -15,7 +15,7 @@ src={ RESTAURANT_IMAGE + info.cloudinaryImageId }         />
         )}</h4>
         <h5>{info.sla.slaString} delivery time</h5>
         <h5>{info.avgRating} stars</h5>
-        <h5>₹{info.costForTwo}</h5>
+        <h5>{info.costForTwo}</h5>
         </div>
     );
 };
