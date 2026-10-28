@@ -1,0 +1,37 @@
+
+{
+  "data": {
+    "cards": [
+      {},
+      {},
+      {
+        "card": {
+          "card": {
+            "info": {
+              "id": "6372",
+              "name": "Raja Rani Ruchulu",
+              "city": "Hyderabad",
+              "avgRating": 4.1,
+              "costForTwoMessage": "₹300 for two",
+              "cuisines": ["Biryani", "Andhra"]
+            }
+          }
+        }
+      }
+    ],
+    "menuItems": [
+      {
+        "id": "item-1",
+        "name": "Chicken Biryani",
+        "price": 250,
+        "isVeg": false
+      },
+      {
+        "id": "item-2",
+        "name": "Veg Biryani",
+        "price": 180,
+        "isVeg": true
+      }
+    ]
+  }
+}

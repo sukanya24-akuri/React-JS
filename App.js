@@ -1,9 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-
 import Header from "./components/Header";
-import Body  from "./components/Body";
+import Body from "./components/Body";
+import { createBrowserRouter, RouterProvider,Outlet } from "react-router-dom";
+import AboutUs from "./components/AboutUs";
+import Contact from "./components/Contact";
+import Error from "./components/Error";
+import RestaurantMenu from "./components/RestaurantMenu";
 /**
  *
  * Header
@@ -16,20 +20,39 @@ import Body  from "./components/Body";
  * -res name,cusine,starts,delivery time
  */
 
-
-
-
-
-
-
 const AppLayout = () => {
   return (
     <div className="app">
       <Header />
-      <Body/>
+      <Outlet />
     </div>
   );
 };
+const router = createBrowserRouter([
+  {
+  path: "/",
+  element: <AppLayout />,
+  children: [
+    {
+      path: "/",
+      element: <Body />,
+    },
+    {
+      path: "/about",
+      element: <AboutUs />,
+    },
+    {
+      path: "/contact",
+      element: <Contact />,
+    },
+    {
+      path:"/restaurant",
+      element:<RestaurantMenu/>,
+    },
+  ],
+  errorElement:<Error/>
+}
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
+root.render(<RouterProvider router={router} />);
